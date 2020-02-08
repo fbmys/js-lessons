@@ -27,7 +27,8 @@ test('getCountOfProp: кол-во свойств объекта', () => {
 
 test('copyObject: копия объекта', () => {
   const [obj] = getRandomObject();
-  const res = copyObject(obj) !== obj;
+  const copy = copyObject(obj)
+  const res =  copy && copy !== obj;
   expect(res).toBeTruthy();
 });
 
