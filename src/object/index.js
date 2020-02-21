@@ -62,8 +62,8 @@ function hasKey(object, key) {
 
 /**
  * Добавить значение в объект
- * вернуть то же объект
- * Примет
+ * вернуть тот же объект
+ * Пример
  * const a = { name: '1' };
  * const key = 'age';
  * const value = '18';
